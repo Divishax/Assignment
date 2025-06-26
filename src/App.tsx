@@ -1,9 +1,11 @@
+import List from './components/organisms/List';
+
 const App: React.FC = () => {
   return (
     <>
-      <h1>Pokemon App</h1>
+      <List/>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
